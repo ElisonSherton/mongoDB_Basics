@@ -76,8 +76,8 @@ Collections are like tables in SQL. In any database, you can have as many collec
 
 - Create a database and a collection within that database
 ```
-    use databasename;
-    db.createCollection("section1");
+    use pokemon;
+    db.createCollection("starters");
 ```
 
 - Add an entry to the collection
@@ -93,7 +93,24 @@ Collections are like tables in SQL. In any database, you can have as many collec
     `show collections`
 
 - Add multiple items to the collection
-    `db.section1.insert([{"key":"value"}, {"key":"value", "k", "v"}, {"key":"value"}, {"ky":"vl"});`
+    ```
+    db.starters.insert([{
+     "name":"bulbasaur",
+     "region":"kanto",
+     "cuteness":85},
+     {"name":"charmander",
+     "region":"kanto",
+     "cuteness":80},
+     {"name":"chikorita",
+     "region":"johto",
+     "cuteness":95},
+     {"name":"chimchar",
+     "region":"sinnoh",
+     "cuteness":88},
+     {"name":"piplup",
+     "region":"sinnoh",
+     "cuteness":60}]);
+    ```
 
 ![](./collections.png)
 
