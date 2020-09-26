@@ -312,3 +312,4 @@ Hope this repo helped in making you understand the basics of mongoDB and how to 
 1. [MongoDB with ubuntu](https://www.youtube.com/watch?v=oLN-7eChUt0)
 2. [Video - pyMongo basic operations](https://www.youtube.com/watch?v=rE_bJl2GAY8)
 3. [Text  - pyMongo basic operations](https://www.datacamp.com/community/tutorials/introduction-mongodb-python#)
+4. [Iris Dataset](https://www.kaggle.com/rtatman/iris-dataset-json-version)
